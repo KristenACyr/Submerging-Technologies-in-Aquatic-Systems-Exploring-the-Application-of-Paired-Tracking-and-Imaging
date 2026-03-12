@@ -1,0 +1,14 @@
+﻿Column Names,Definition,,,,,,Tracking Abbrev.,Definition,Imaging Abbrev.,Definition
+Manuscript,Author of manuscript (Last name of first author_publication year),,,,,,AC,Acoustic,AB,AnimalBorne
+Taxa,Taxonomic classification of study species,,,,,,PIT,Passive Integrated Transponder,ACA,Autonomous Camera
+Species,Scienific name of species of each manuscript,,,,,,DD,Data Logger,ACOA,Acoustic Camera
+Abbreviation_Spec,"See definitions of abbreviations under tracking Abbrev and defition, and Imaging abbrev and Definition (tracking abbrev + imaging abbrev)",,,,,,R,Radio,AV,Autonomous Video
+,,,,,,,SA,Satellite,BRUV,Baited remote underwater video
+,,,,,,,,,DR,Drone
+,,,,,,,,,SV,Stationary Video
+,,,,,,,,,DOV,Diver Operated Video
+,,,,,,,,,ROV,Remote Operated Video
+,,,,,,,,,TOC,Towed Camera
+,,,,,,,,,TOV,Towed Video
+,,,,,,,,,PO ,Personelle Operated
+,,,,,,,,,SB,Stationary Baited
