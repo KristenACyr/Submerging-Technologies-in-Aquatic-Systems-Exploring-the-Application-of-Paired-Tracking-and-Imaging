@@ -23,7 +23,7 @@ replacements <- c(
   "Animal-borne" = "AB",
   "Satellite" = "SA",
   "Acoustic" = "AC",
-  "Data Logger" = "DL",
+  "DD" = "DL",
   "Radio" = "R",
   "Baited" = "B"
 )
@@ -108,7 +108,7 @@ sum = df %>%
 df$node <- factor(
   df$node,
   levels =
-    c("DL + SA + Mobile", "AC + PIT + Baited", "R + Mobile + Stationary",
+    c("DL + SA + Mobile", "AC + PIT + B", "R + Mobile + Stationary",
        "R + Mobile", "R + DL + AB", "PIT + Mobile",
        "DL + PIT + Mobile", "DL + Mobile", "AC + AB", 
        "PIT + SA + Mobile", "PIT + R + Stationary", "DL + SA + B",  
@@ -121,6 +121,7 @@ df$node <- factor(
        "Species Management","Resource-Use Management", "Conservation Measures", 
        "Reproductive Ecology", "Other Drivers", "Methodological","Behavioural Ecology")
 )
+
 
 ############################################################################
 
